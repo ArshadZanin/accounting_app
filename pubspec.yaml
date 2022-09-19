@@ -1,0 +1,52 @@
+name: accounting_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  copy_with_extension: ^4.0.2
+  json_annotation: ^4.5.0
+  equatable: ^2.0.3
+  gsheets: ^0.4.2
+  pdf: ^3.8.3
+  path_provider: ^2.0.11
+  open_file: ^3.2.1
+  share_plus: ^4.1.0
+  teledart: ^0.3.4
+  animate_do: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.11
+  json_serializable: ^6.2.0
+  copy_with_extension_gen: ^4.0.2
+
+  # flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/balloons.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
